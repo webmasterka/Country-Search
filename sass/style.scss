@@ -1,0 +1,63 @@
+body {
+    background-image: url('image/daimond_eyes_@2X.png');
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#country-name {
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+button {
+    display: block;
+    margin: 50px auto;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    transition-duration: 1.5s;
+    &:hover {
+        color: #fff;  
+        background: #000;
+    }
+}
+
+input {
+    display: block;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul {
+    text-align: center;
+}
+li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.bold, .info {
+    font-weight: bold;
+}
